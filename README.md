@@ -4,10 +4,10 @@ Getting practice &amp; refreshing knowledge for Help Desk & Computer Technician
 
 ## Topics
 
-- Linux Commands
+- Linux Networking Commands
 - Troubleshooting
 - Debugging
 
 ## Collaborators
 
-Reece Renninger
+- Reece Renninger
