@@ -2,39 +2,81 @@
 
 ## Technical Knowledge and Skills
 
-Can you explain the steps you would take to troubleshoot a computer that won’t boot?
-Rationale: This question assesses the candidate’s understanding of basic hardware and software troubleshooting.
+### Can you explain the steps you would take to troubleshoot a computer that won’t boot?
 
-How do you handle a situation where a user is unable to connect to the company’s VPN?
-Rationale: This tests knowledge of networking and VPN troubleshooting.
+- Double check power source / try a new power source
+- If tower is receiving power, check monitor connections
+- Disconnect USB devices & try to boot
+- Remove new hardware installed / Check it is installed correctly
+- Listen for a POST beep (install a internal speaker if none installed)
+- Use System Restore or Startup Repair
+- Escalate via ticketing system if unable to solve
 
-Describe the process of setting up a new user in a Windows environment.
-Rationale: This question checks familiarity with user account management, including Active Directory.
+### How do you handle a situation where a user is unable to connect to the company’s VPN?
 
-What steps would you take to resolve a slow performance issue on a user’s computer?
-Rationale: This evaluates the candidate’s ability to diagnose and fix performance issues, considering both hardware and software aspects.
+- Check Internet Connection
+- Check your VPN credentials
+- Restart any VPN software
+- Check your VPN settings
+- Clear old VPN software from device
+- Reinstall / Update VPN software
+- Reboot the router
+- Try different VPN protocols/ports
+- Escalate via ticketing system if unable to solve
 
-How do you approach diagnosing a network connectivity problem?
-Rationale: This tests understanding of networking basics, including IP configuration, DNS, and network hardware.
+### Describe the process of setting up a new user in a Windows environment
+
+- Start > Settings > Accounts > Other Users > Add someone else to this PC
+
+### What steps would you take to resolve a slow performance issue on a user’s computer?
+
+- Check running tasks in Task Manager
+- If Task Manager shows the issue - solve it either via ending the processes or uninstalling the problem application / adding more RAM / etc
+- Restart PC
+- Check disk space / free up disk space
+- Update OS and Software
+- Run a hardware diagnostic test
+- Escalate via ticketing system if unable to solve
+
+### How do you approach diagnosing a network connectivity problem?
+
+- Figure out the exact problem being had (slow connection? no connection at all? connected locally but not to the internet?)
+- Check all physical connections
+- Restart computer / modem / router
+- Run network diagnostics
+- Disable firewalls / antivirus
+- Test connection with a different device
+- Escalate via ticketing system if unable to solve
 
 ## Problem-Solving and Analytical Skills
 
-Can you describe a time when you had to troubleshoot a particularly difficult technical issue? How did you resolve it?
-Rationale: This assesses the candidate’s problem-solving skills and their ability to handle challenging situations.
+### Can you describe a time when you had to troubleshoot a particularly difficult technical issue? How did you resolve it?
 
-If a user reports that their email client is not receiving emails, what steps would you take to resolve the issue?
-Rationale: This question gauges knowledge of email systems and troubleshooting methodologies.
+- I often have to resolve difficult problems while independent broadcasting, one specific issue I remember having was constant dropped frames due to rendering & encoding lag. I tried a few solutions off the top of my mind that might work - dropping from 1080p to 720p for example worked well. But I didn't want to sacrifice quality! So I did more research with Google-fu and tested some more options presented by others having similar issues. Turned out - my CPU was too weak for the rendering / encoding I was trying to do! One great way to solve this was to upgrade to a 2000 series NVidia GPU - which gave me the option of NVENC encoding to off-load tons of the work onto my graphics card.
 
-How do you prioritize multiple IT support requests when they come in at the same time?
-Rationale: This tests the candidate’s ability to manage time and prioritize tasks effectively.
+### If a user reports that their email client is not receiving emails, what steps would you take to resolve the issue?
+
+- Double check they are connected to the internet
+- Double check emails aren't going to spam
+- Verify username & passwords are correct
+- Check SMTP server details / change SMTP port
+- Make sure firewalls & anti-virus aren't causing a conflict
+- Send a test email and see if we receive a non-delivery report message
+- Escalate via ticketing system if unable to solve
+
+### How do you prioritize multiple IT support requests when they come in at the same time?
+
+- I would quickly skim over each support request and see which one is causing barriers to peoples' immediate needs. After identifying which ones are causing barriers - I would pick the easiest fixes first so that those people could continue past their barrier. After which I would move on to the more difficult tickets and apologize for the wait.
 
 ## Customer Service and Communication
 
-Describe a situation where you had to explain a technical issue to a non-technical user. How did you ensure they understood?
-Rationale: This assesses communication skills and the ability to translate technical jargon into layman’s terms.
+### Describe a situation where you had to explain a technical issue to a non-technical user. How did you ensure they understood?
 
-How would you handle a situation where a user is frustrated and upset about a recurring technical problem?
-Rationale: This evaluates customer service skills and the ability to remain calm and professional under pressure.
+- I often find myself having to explain independent broadcasting software to other aspiring broadcasters. This gives me a great chance to use non-techincal wording for a fairly technical software, and finding way to use non-technical words for tech jargon can actually be a fun challenge! It also helps me understand it better myself. One way I make sure they understood is asking them to repeat back what I explained to them in their own words & leave notes for them on any confusing parts.
+
+### How would you handle a situation where a user is frustrated and upset about a recurring technical problem?
+
+- First off, apologize! No one likes tech issues, and repeated ones can be annoying. I would also mention this is just the nature of computers sometimes - its not the user's fault! Afterwards, I would try to set them up in the best way possible for this technical problem to happen again - and if possible get them setup with an upgrade to completely solve it!
 
 ## Knowledge of Tools and Systems
 
@@ -59,3 +101,21 @@ Rationale: This assesses knowledge of backup methodologies and data protection s
 
 What is your experience with patch management, and how do you ensure systems remain secure and up-to-date?
 Rationale: This checks understanding and experience with system maintenance and security practices.
+
+## Bonus Questions
+
+A user reports receiving “Page cannot be displayed,” troubleshooting procedure
+
+Malware removal procedure, and common places for malware to hide
+
+User reports VPN will not connect, troubleshooting procedure
+
+A user cannot log onto their workstation using their domain credentials, receiving “System could not log you on, make sure user name and domain are correct.”  Local user accounts log on successfully.  How can domain user log in?
+
+A user cannot access a network share.  Describe troubleshooting process for each:
+“Access is denied”
+“Network path was not found”
+
+How can a domain user have the same network drive automatically mapped on any domain computer they log on to Multiple wireless access points are broadcasting the same SSID, one with encryption and one without.  Windows sees the network as encrypted.  How can you connect to the non-encrypted network?
+
+A Windows installer does not detect a hard drive, describe possible scenarios which may cause this and possible solutions.
