@@ -11,3 +11,4 @@ Getting practice &amp; refreshing knowledge for Help Desk & Computer Technician
 ## Collaborators
 
 - Reece Renninger
+- Zach Hill

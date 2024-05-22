@@ -112,7 +112,7 @@
 ### Network Troubleshooting
 
     12.1 What command would you use to trace the path packets take to a network destination?
-    - `traceroute` command
+    - `traceroute` command followed by hostname or IP address you want to trace
 
     12.2 How do you display all network interfaces and their configurations?
-    - `hwinfo` command
+    - `ifconfig` command
