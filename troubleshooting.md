@@ -80,42 +80,89 @@
 
 ## Knowledge of Tools and Systems
 
-What ticketing systems have you used in the past, and how do you ensure that all relevant information is documented?
-Rationale: This checks experience with ticketing systems and the importance of thorough documentation.
+### What ticketing systems have you used in the past, and how do you ensure that all relevant information is documented?
 
-How do you stay updated with the latest technology trends and advancements?
-Rationale: This gauges the candidate’s commitment to continuous learning and staying current in the field.
+- I have used an in-house ticketing system built by CodeFellows within the application Remo. Students were able to input their current issue & location within Remo classroom. I always make sure to take notes when helping a student & keep track of any solutions we find to their issue. Afterwards, when closing the ticket, I place theses notes & any other important documentation in the closing remarks.
+
+### How do you stay updated with the latest technology trends and advancements?
+
+- Its a constant battle - but I am always trying to keep up with new YouTube videos, reading LinkedIn posts from other developers, and doing personal research for my own indepedent broadcasting and video game creation projects.
 
 ## Scenario-Based Questions
 
-A critical application is down, and multiple users are affected. Walk me through your process for handling this situation.
-Rationale: This tests the ability to handle high-pressure situations and the process for incident management.
+### A critical application is down, and multiple users are affected. Walk me through your process for handling this situation
 
-You’ve identified a recurring issue with a particular software that affects many users. How would you go about addressing this on a larger scale?
-Rationale: This evaluates the candidate’s strategic thinking and ability to implement long-term solutions.
+- Communicate issue with users & let them know a solution is being worked on.
+- Identify the issue at hand
+- Restart the application
+- Review available logs & error messages
+- Look into recent updates or changes that could be reverted
+- Communicate with other team members & escalate if we can't solve the issue
+- Update users & management when solved, document solution
+- Make sure it won't happen again by fixing whatever may have caused it
+
+### You’ve identified a recurring issue with a particular software that affects many users. How would you go about addressing this on a larger scale?
+
+- Document the issue as best as possible, creating a flow chart to recreate the issue if needed
+- Inform team members of the issue, make sure there is not an easy solution I am missing
+- Escalate to management & ask if I can help with a solution
+- Research solutions to the issue & implement them as part of the software or procedure to use the software
 
 ## Technical Knowledge Verification
 
-Can you explain the difference between an incremental and a differential backup?
-Rationale: This assesses knowledge of backup methodologies and data protection strategies.
+### Can you explain the difference between an incremental and a differential backup?
 
-What is your experience with patch management, and how do you ensure systems remain secure and up-to-date?
-Rationale: This checks understanding and experience with system maintenance and security practices.
+- Incremental only copies modified data since last backup. Ex: take a full backup on Sunday, your incremental backup on Monday will only contain changes since backup made on Sunday. Another incremental backup on Tuesday would only show changes since Monday.
+- Differential copies only newly added and changed data since last FULL backup. Ex: take a full back up on Sunday, your differential backup on Monday will contain all data since Sunday. Another differntial backup on Tuesday will still contain all data since Sunday. Size of differential data will continue to increase until another full backup is completed.
+
+### What is your experience with patch management, and how do you ensure systems remain secure and up-to-date?
+
+- I have a fair amount of experience with patch management. One thing I find important is while keeping your systems up to date, automatic updates can sometimes be poorly timed. I like to do once a week regular checks on my systems to make sure all software used is updated. As for security - I think a good anti-virus and malware protection is important. Windows Defender will do the trick if you aren't downloading anything too risky & MalwareBytes has always worked well historically for me.
 
 ## Bonus Questions
 
-A user reports receiving “Page cannot be displayed,” troubleshooting procedure
+### A user reports receiving “Page cannot be displayed,” troubleshooting procedure
 
-Malware removal procedure, and common places for malware to hide
+- Ensure they are connected to the internet & other pages display
+- Check this webpage loads on other devices and / or browsers
+- If internet works on other sites and this webpage loads on other devices, clear cache & cookies is a great next step.
+- Check DNS Settings / Flush DNS cache can always be a great next solution.
 
-User reports VPN will not connect, troubleshooting procedure
+### Malware removal procedure, and common places for malware to hide
 
-A user cannot log onto their workstation using their domain credentials, receiving “System could not log you on, make sure user name and domain are correct.”  Local user accounts log on successfully.  How can domain user log in?
+- Disconnect from internet
+- Boot into Safe Mode
+- Run a virus / malware scan
+- Uninstall suspicious applications
+- Delete suspicious browser extensions
 
-A user cannot access a network share.  Describe troubleshooting process for each:
-“Access is denied”
-“Network path was not found”
+### A user cannot log onto their workstation using their domain credentials, receiving “System could not log you on, make sure user name and domain are correct.”  Local user accounts log on successfully.  How can domain user log in?
 
-How can a domain user have the same network drive automatically mapped on any domain computer they log on to Multiple wireless access points are broadcasting the same SSID, one with encryption and one without.  Windows sees the network as encrypted.  How can you connect to the non-encrypted network?
+- Make sure to be including the domain name correctly, show them how to do so.
 
-A Windows installer does not detect a hard drive, describe possible scenarios which may cause this and possible solutions.
+### A user cannot access a network share.  Describe troubleshooting process for each:
+
+- “Access is denied”
+
+1. Check internet connection
+2. Restart networking services
+3. Make sure proper permissions are available to user & if not, help them get access
+
+- “Network path was not found”
+
+1. Double check path name
+2. Try to connect using an IP address
+3. Disable antivirus temporarily
+
+### How can a domain user have the same network drive automatically mapped on any domain computer they log on to Multiple wireless access points are broadcasting the same SSID, one with encryption and one without.  Windows sees the network as encrypted.  How can you connect to the non-encrypted network?
+
+- 
+
+### A Windows installer does not detect a hard drive, describe possible scenarios which may cause this and possible solutions
+
+- A few scenarios are loose/damaged cables, incompatible drivers, incorrect BIOS settings, faulty hard drive, unsupported hardware, or disk format/partition issues.
+
+- Check that the Hard Drive shows up in the BIOS
+- Double check all cables are snug, then replace cables if they look damaged at all.
+- Try using a different port
+- Connect hard drive to another PC to make sure it works
